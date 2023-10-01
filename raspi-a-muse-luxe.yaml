@@ -41,7 +41,8 @@ i2c:
   scl: GPIO23
 
 dashboard_import:
-  package_import_url: https://github.com/semakka1975/muse-luxe/blob/main/raspi-a-muse-luxe.yaml@main                 
+  package_import_url: https://github.com/semakka1975/muse-luxe/blob/main/raspi-a-muse-luxe.yaml@main      
+  
 wifi:
   ap:
     password: "${wifi_ap_password}"
