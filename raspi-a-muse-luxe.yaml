@@ -9,11 +9,11 @@ wifi:
       password: ${wifi_password}
   power_save_mode: none
   ap:
-    ssid: "${device_name}"
+    ssid: "${name}"
     password: ${wifi_password}
     
 esphome:
-  name: ${device_name}
+  name: ${name}
   friendly_name: ${friendly_name}
   name_add_mac_suffix: true
 #  project:
