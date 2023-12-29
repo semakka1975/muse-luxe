@@ -125,9 +125,9 @@ media_player:
     dac_type: external
     i2s_dout_pin: GPIO26
     mode: stereo
-    mute_pin:
-      number: GPIO21
-      inverted: true
+#    mute_pin:
+#      number: GPIO21
+#      inverted: true
     on_state:
       if:
         condition:
